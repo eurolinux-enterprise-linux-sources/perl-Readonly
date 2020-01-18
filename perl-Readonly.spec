@@ -1,6 +1,6 @@
 Name:		perl-Readonly
 Version:	1.03
-Release:	21%{?dist}
+Release:	22%{?dist}
 Summary:	Facility for creating read-only scalars, arrays, hashes
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -69,6 +69,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Readonly.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.03-22
+- Mass rebuild 2013-12-27
+
 * Thu Aug 16 2012 Petr Pisar <ppisar@redhat.com> - 1.03-21
 - Specify all dependencies
 
